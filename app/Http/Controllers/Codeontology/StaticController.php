@@ -18,11 +18,15 @@ class StaticController extends Controller {
     }
 
     public static function docs() {
-        return view('docs');
+        return view('docs')->with([
+            "config" => StaticController::$config
+        ]);
     }
 
     public static function query() {
-        return view('query');
+        return view('query')->with([
+            "config" => StaticController::$config
+        ]);
     }
 
 }
