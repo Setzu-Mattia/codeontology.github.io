@@ -1,0 +1,22 @@
+.slim.intro-header {
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+}
+
+/* Positioning */
+.left {
+    margin: 10px;
+    float: left;
+}
+
+/* Fonts */
+a.relevant {
+    cursor: initial;
+}
+
+.big {
+    font-size: 2em;
+}
